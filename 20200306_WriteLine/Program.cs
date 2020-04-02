@@ -14,38 +14,121 @@ namespace _20200402_WriteLine
 		 */
 		static void Main(string[] args)
 		{
-			double a, b, ergebnis, rest, min, max;
+			double a, b, c, min, max;
+			string action;
 
-			min = Convert.ToDouble(-1000000.00);
-			max = Convert.ToDouble(1000000.00);
+			max = 1000000.0;
+			min = -1000000.0;
 
 			//Werte für a und b einlesen
 			Console.WriteLine("Wie ist die erste Zahl?");
-			a = Convert.ToDouble(Console.ReadLine());
-			if(a > max || a < min)
+			a = double.Parse(Console.ReadLine());
+			if (a > max)
 			{
-				a = Convert.ToDouble(999999);
+				a = max;
+				Console.WriteLine("Fehler: Zahl ist außerhalb des erlaubten Zahlenbereichs. Automatische Korrektur.");
 			}
-			
+			else if (a < min)
+			{
+				a = min;
+				Console.WriteLine("Fehler: Zahl ist außerhalb des erlaubten Zahlenbereichs. Automatische Korrektur.");
+			}
+
 			Console.WriteLine("Wie ist die zweite Zahl?");
-			b = Convert.ToDouble(Console.ReadLine());
+			b = double.Parse(Console.ReadLine());
 
-			//reine Textausgabe
-			//Console.WriteLine("5 + 12 = 17");
+			if (b > max)
+			{
+				b = max;
+				Console.WriteLine("Fehler: Zahl ist außerhalb des erlaubten Zahlenbereichs. Automatische Korrektur.");
+			}
+			else if (b < min)
+			{
+				b = min;
+				Console.WriteLine("Fehler: Zahl ist außerhalb des erlaubten Zahlenbereichs. Automatische Korrektur.");
+			}
 
-			//Addieren
-			ergebnis = a + b;
-			Console.WriteLine("{0} + {1} = {2}", a, b, ergebnis);
-			//Minus
-			ergebnis = a - b;
-			Console.WriteLine("{0} - {1} = {2}", a, b, ergebnis);
-			//Mal
-			ergebnis = a * b;
-			Console.WriteLine("{0} * {1} = {2}", a, b, ergebnis);
-			//Teilen
-			ergebnis = a / b;
-			rest = a % b;
-			Console.WriteLine("{0} / {1} = {2} Rest {3}", a, b, ergebnis, rest);
+			Console.WriteLine("Wählen Sie eine Operation: '+' '-' '*' '/'");
+			action = Console.ReadLine();
+
+			switch (action)
+			{
+				case "+":
+					if (a > max || b > max)
+					{
+						c = a + b;
+						Console.WriteLine("Fehler: Zahl ist außerhalb des erlaubten Zahlenbereichs. Automatische Korrektur.");
+					}
+					else if (a < min || b < min)
+					{
+						c = a + b;
+						Console.WriteLine("Fehler: Zahl ist außerhalb des erlaubten Zahlenbereichs. Automatische Korrektur.");
+					}
+					else {
+						c = a + b;
+						Console.WriteLine(c);
+					}
+					break;
+				case "-":
+					if (a > max || b > max)
+					{
+						c = a - b;
+						Console.WriteLine("Fehler: Zahl ist außerhalb des erlaubten Zahlenbereichs. Automatische Korrektur.");
+					}
+					else if (a < min || b < min)
+					{
+						c = a - b;
+						Console.WriteLine("Fehler: Zahl ist außerhalb des erlaubten Zahlenbereichs. Automatische Korrektur.");
+					}
+					else
+					{
+						c = a - b;
+						Console.WriteLine(c);
+					}
+					break;
+				case "*":
+					if (a > max || b > max)
+					{
+						c = a * b;
+						Console.WriteLine("Fehler: Zahl ist außerhalb des erlaubten Zahlenbereichs. Automatische Korrektur.");
+					}
+					else if (a < min || b < min)
+					{
+						c = a * b;
+						Console.WriteLine("Fehler: Zahl ist außerhalb des erlaubten Zahlenbereichs. Automatische Korrektur.");
+					}
+					else
+					{
+						c = a * b;
+						Console.WriteLine(c);
+					}
+					break;
+				case "/":
+					if (b == 0)
+					{
+						c = a / b;
+						Console.WriteLine("Fehler: Kann nicht durch Null teilen. Breche ab.");
+					}
+					else if (a > max || b > max)
+					{
+						c = a / b;
+						Console.WriteLine("Fehler: Zahl ist außerhalb des erlaubten Zahlenbereichs. Automatische Korrektur.");
+					}
+					else if (a < min || b < min)
+					{
+						c = a / b;
+						Console.WriteLine("Fehler: Zahl ist außerhalb des erlaubten Zahlenbereichs. Automatische Korrektur.");
+					}
+					else
+					{
+						c = a / b;
+						Console.WriteLine(c);
+					}
+					break;
+				default:
+					Console.WriteLine("Fehler. Unbekannte Aktion.");
+					break;
+			}
 		}
 	}
 }

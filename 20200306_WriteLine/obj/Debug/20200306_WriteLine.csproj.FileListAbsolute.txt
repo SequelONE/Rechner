@@ -11,3 +11,10 @@ C:\Schule\ZGB\Aufgabe\SAE\23.03.2020\20200306_WriteLine_ReadLine\20200306_WriteL
 C:\Schule\ZGB\Aufgabe\SAE\23.03.2020\20200306_WriteLine_ReadLine\20200306_WriteLine\obj\Debug\20200306_WriteLine.csproj.CoreCompileInputs.cache
 C:\Schule\ZGB\Aufgabe\SAE\23.03.2020\20200306_WriteLine_ReadLine\20200306_WriteLine\obj\Debug\20200306_WriteLine.exe
 C:\Schule\ZGB\Aufgabe\SAE\23.03.2020\20200306_WriteLine_ReadLine\20200306_WriteLine\obj\Debug\20200306_WriteLine.pdb
+C:\Projects\Schule\ZGB\SAE\Rechner\20200306_WriteLine\bin\Debug\20200306_WriteLine.exe.config
+C:\Projects\Schule\ZGB\SAE\Rechner\20200306_WriteLine\bin\Debug\20200306_WriteLine.exe
+C:\Projects\Schule\ZGB\SAE\Rechner\20200306_WriteLine\bin\Debug\20200306_WriteLine.pdb
+C:\Projects\Schule\ZGB\SAE\Rechner\20200306_WriteLine\obj\Debug\20200306_WriteLine.csprojAssemblyReference.cache
+C:\Projects\Schule\ZGB\SAE\Rechner\20200306_WriteLine\obj\Debug\20200306_WriteLine.csproj.CoreCompileInputs.cache
+C:\Projects\Schule\ZGB\SAE\Rechner\20200306_WriteLine\obj\Debug\20200306_WriteLine.exe
+C:\Projects\Schule\ZGB\SAE\Rechner\20200306_WriteLine\obj\Debug\20200306_WriteLine.pdb
