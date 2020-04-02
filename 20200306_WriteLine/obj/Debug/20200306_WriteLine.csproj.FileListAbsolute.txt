@@ -1,0 +1,13 @@
+F:\__Schule_USB\E1FS\20200306_WriteLine\20200306_WriteLine\bin\Debug\20200306_WriteLine.exe.config
+F:\__Schule_USB\E1FS\20200306_WriteLine\20200306_WriteLine\bin\Debug\20200306_WriteLine.exe
+F:\__Schule_USB\E1FS\20200306_WriteLine\20200306_WriteLine\bin\Debug\20200306_WriteLine.pdb
+F:\__Schule_USB\E1FS\20200306_WriteLine\20200306_WriteLine\obj\Debug\20200306_WriteLine.csprojResolveAssemblyReference.cache
+F:\__Schule_USB\E1FS\20200306_WriteLine\20200306_WriteLine\obj\Debug\20200306_WriteLine.exe
+F:\__Schule_USB\E1FS\20200306_WriteLine\20200306_WriteLine\obj\Debug\20200306_WriteLine.pdb
+C:\Schule\ZGB\Aufgabe\SAE\23.03.2020\20200306_WriteLine_ReadLine\20200306_WriteLine\bin\Debug\20200306_WriteLine.exe.config
+C:\Schule\ZGB\Aufgabe\SAE\23.03.2020\20200306_WriteLine_ReadLine\20200306_WriteLine\bin\Debug\20200306_WriteLine.exe
+C:\Schule\ZGB\Aufgabe\SAE\23.03.2020\20200306_WriteLine_ReadLine\20200306_WriteLine\bin\Debug\20200306_WriteLine.pdb
+C:\Schule\ZGB\Aufgabe\SAE\23.03.2020\20200306_WriteLine_ReadLine\20200306_WriteLine\obj\Debug\20200306_WriteLine.csprojAssemblyReference.cache
+C:\Schule\ZGB\Aufgabe\SAE\23.03.2020\20200306_WriteLine_ReadLine\20200306_WriteLine\obj\Debug\20200306_WriteLine.csproj.CoreCompileInputs.cache
+C:\Schule\ZGB\Aufgabe\SAE\23.03.2020\20200306_WriteLine_ReadLine\20200306_WriteLine\obj\Debug\20200306_WriteLine.exe
+C:\Schule\ZGB\Aufgabe\SAE\23.03.2020\20200306_WriteLine_ReadLine\20200306_WriteLine\obj\Debug\20200306_WriteLine.pdb
