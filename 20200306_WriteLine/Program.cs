@@ -54,70 +54,21 @@ namespace _20200402_WriteLine
 			switch (action)
 			{
 				case "+":
-					if (a > max || b > max)
-					{
-						c = a + b;
-						Console.WriteLine("Fehler: Zahl ist außerhalb des erlaubten Zahlenbereichs. Automatische Korrektur.");
-					}
-					else if (a < min || b < min)
-					{
-						c = a + b;
-						Console.WriteLine("Fehler: Zahl ist außerhalb des erlaubten Zahlenbereichs. Automatische Korrektur.");
-					}
-					else {
 						c = a + b;
 						Console.WriteLine(c);
-					}
 					break;
 				case "-":
-					if (a > max || b > max)
-					{
-						c = a - b;
-						Console.WriteLine("Fehler: Zahl ist außerhalb des erlaubten Zahlenbereichs. Automatische Korrektur.");
-					}
-					else if (a < min || b < min)
-					{
-						c = a - b;
-						Console.WriteLine("Fehler: Zahl ist außerhalb des erlaubten Zahlenbereichs. Automatische Korrektur.");
-					}
-					else
-					{
 						c = a - b;
 						Console.WriteLine(c);
-					}
 					break;
 				case "*":
-					if (a > max || b > max)
-					{
-						c = a * b;
-						Console.WriteLine("Fehler: Zahl ist außerhalb des erlaubten Zahlenbereichs. Automatische Korrektur.");
-					}
-					else if (a < min || b < min)
-					{
-						c = a * b;
-						Console.WriteLine("Fehler: Zahl ist außerhalb des erlaubten Zahlenbereichs. Automatische Korrektur.");
-					}
-					else
-					{
 						c = a * b;
 						Console.WriteLine(c);
-					}
 					break;
 				case "/":
 					if (b == 0)
 					{
-						c = a / b;
 						Console.WriteLine("Fehler: Kann nicht durch Null teilen. Breche ab.");
-					}
-					else if (a > max || b > max)
-					{
-						c = a / b;
-						Console.WriteLine("Fehler: Zahl ist außerhalb des erlaubten Zahlenbereichs. Automatische Korrektur.");
-					}
-					else if (a < min || b < min)
-					{
-						c = a / b;
-						Console.WriteLine("Fehler: Zahl ist außerhalb des erlaubten Zahlenbereichs. Automatische Korrektur.");
 					}
 					else
 					{
