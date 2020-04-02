@@ -14,21 +14,21 @@ namespace _20200402_WriteLine
 		 */
 		static void Main(string[] args)
 		{
-			int a, b, ergebnis, rest, min, max;
+			double a, b, ergebnis, rest, min, max;
 
-			min = Convert.ToInt32(-1000000);
-			max = Convert.ToInt32(1000000);
+			min = Convert.ToDouble(-1000000.00);
+			max = Convert.ToDouble(1000000.00);
 
 			//Werte für a und b einlesen
 			Console.WriteLine("Wie ist die erste Zahl?");
-			a = Convert.ToInt32(Console.ReadLine());
+			a = Convert.ToDouble(Console.ReadLine());
 			if(a > max || a < min)
 			{
-				a = Convert.ToInt32(999999);
+				a = Convert.ToDouble(999999);
 			}
 			
 			Console.WriteLine("Wie ist die zweite Zahl?");
-			b = Convert.ToInt32(Console.ReadLine());
+			b = Convert.ToDouble(Console.ReadLine());
 
 			//reine Textausgabe
 			//Console.WriteLine("5 + 12 = 17");
